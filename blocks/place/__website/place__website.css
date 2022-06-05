@@ -1,0 +1,14 @@
+.place__website {
+  grid-area: website;
+  display: flex;
+  flex-direction: column;
+  align-self: flex-end;
+}
+
+@media screen and (max-width: 767px) {
+  .place__website {
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
