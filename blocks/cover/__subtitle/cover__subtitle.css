@@ -3,8 +3,20 @@
   font-size: 18px;
   line-height: 22px;
   font-style: normal;
-  text-align: center;
   color: #ffffff;
   max-width: 360px;
-  margin: 0 auto;
+  text-align: center;
+  margin: 32px auto;
+  margin-bottom: 0;
+  align-self: center;
+  /* z-index: 2; */
+}
+
+@media screen and (max-width: 767px) {
+  .cover__subtitle {
+    max-width: 288px;
+    font-size: 14px;
+    line-height: 16px;
+    margin: 16px auto;
+  }
 }

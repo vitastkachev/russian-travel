@@ -2,13 +2,11 @@
   font-weight: 400;
   font-size: 16px;
   line-height: 18px;
+  font-style: normal;
   color: #ffffff;
-  margin-right: 18px;
   text-decoration: none;
 }
-.footer__link:last-child {
-  margin-right: 0;
-}
+
 
 .footer__link:hover {
   opacity: 0.8;

@@ -2,24 +2,33 @@
   max-width: 984px;
   margin: 0 auto;
   padding-top: 92px;
-  padding-bottom: 0;
+  /* padding-bottom: 0; */
+  /* box-sizing: border-box; */
 }
 
 @media screen and (max-width: 1279px) {
   .intro {
+    padding: 92px 48px 0;
     max-width: 928px;
+    /* width: 90.625%; */
   }
 }
 
 @media screen and (max-width: 1023px) {
   .intro {
     max-width: 720px;
+    /* width: 93.75%; */
+    /* или  */
+    /* width: 100%; */
+    padding-top: 88px 24px 0;
     padding-top: 88px;
   }
 }
 @media screen and (max-width: 767px) {
   .intro {
     max-width: 288px;
+    padding-top: 64px 16px 0;
+    /* width: 90%; */
     padding-top: 64px;
   }
 }
