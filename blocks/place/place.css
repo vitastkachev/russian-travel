@@ -1,5 +1,4 @@
 .place {
-  /* margin: 0 auto; */
   margin-bottom: 80px;
   display: grid;
   grid-template-columns: minmax(460px, 1fr);
@@ -29,21 +28,19 @@
     margin-bottom: 73px;
     gap: 48px 28px;
   }
-
 }
 
 @media screen and (max-width: 767px) {
   .place {
-     max-width: 320px;
+    max-width: 320px;
     margin-bottom: 50px;
     gap: 32px 0;
 
     grid-template-columns: minmax(300px, 1fr);
-     grid-template-areas:
+    grid-template-areas:
       "place__title"
       "place__website"
       "place__image"
       "place__paragraphs";
   }
 }
-

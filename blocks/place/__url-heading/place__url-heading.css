@@ -4,15 +4,13 @@
   line-height: 170%;
   color: #aaaaaa;
   text-decoration: none;
-  letter-spacing: 4px;
+  letter-spacing: 2px;
   margin-bottom: 12px;
   margin-top: 0;
 }
 
-
 @media screen and (max-width: 767px) {
   .place__url-heading {
-     line-height: 12px;
+    line-height: 12px;
   }
-
 }

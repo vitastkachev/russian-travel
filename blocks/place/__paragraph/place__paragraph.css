@@ -4,7 +4,7 @@
   line-height: 163%;
   color: #ffffff;
   margin-bottom: 25px;
- margin-top: 0;
+  margin-top: 0;
 }
 
 .place__paragraph:last-child {
@@ -15,11 +15,5 @@
   .place__paragraph {
     font-size: 16px;
     padding: 0;
-  }
-}
-
-@media screen and (max-width: 767px) {
-  .place__paragraph {
-    font-size: 16px;
   }
 }

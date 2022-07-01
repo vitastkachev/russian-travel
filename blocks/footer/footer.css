@@ -11,7 +11,6 @@
 @media screen and (max-width: 1279px) {
   .footer {
     max-width: 928px;
-    /* width: 90.625%; */
   }
 }
 
@@ -19,14 +18,12 @@
   .footer {
     max-width: 720px;
     padding-top: 88px;
-    /* width: 93.75%; */
   }
 }
 
 @media screen and (max-width: 767px) {
   .footer {
     padding-top: 0;
-    display: flex;
     flex-direction: column;
     max-width: 320px;
     margin-top: 64px;
